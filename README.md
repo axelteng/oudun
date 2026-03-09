@@ -1,4 +1,4 @@
 # oudun
   HAL_CANRx485out
-    Implement CAN interrupt-driven reception of magnetic encoder rotation speed and position data. Process the acquired data, then output via UART print and transmit over RS-485. The firmware is deployed using an ST-Link debugger.
-    实现通过 CAN 总线以中断方式接收磁性编码器的转速和位置数据。对获取的数据进行处理，然后通过 UART 输出并通过 RS-485 进行传输。该固件使用 ST-Link 调试器进行部署。
+    Implement CAN interrupt-driven reception for magnetic encoder rotation speed and position data, alongside XYZ-axis gyroscope data acquisition. Process the collected data, then output via UART printing and transmit over the RS-485 interface. Firmware deployment is performed using an ST-Link debugger.
+    对磁编码器的旋转速度和位置数据以及 XYZ 轴陀螺仪数据采用 CAN 中断驱动接收方式。对采集到的数据进行处理，然后通过 UART 输出并通过 RS-485 接口进行传输。使用 ST-Link 调试器进行固件部署
