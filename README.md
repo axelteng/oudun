@@ -8,3 +8,7 @@
   HAL_CANRx485out1.2
     Compared to HAL_CANRx485out1.1, HAL_CANRx485out1.2 transmits an additional 485 data frame containing the button count and two joystick axes. The button status is encoded using a bitmask scheme supporting up to 8 inputs, with a maximum value of 0xFF(Binary).
     HAL_CANRx485out1.2 比 HAL_CANRx485out1.1多发送一组485数据，内容是按键个数和遥感2个方向，按键是二进制算法最多获取8个按键值，最大表示0xFF
+  PWMControlServo
+
+    输出频率：50Hz-20ms，当检测到PA1 为高电平时候 PB1输出脉宽是 500 ，当检测到PA1 为地电平时候 PB1输出脉宽是 1500 ，开机默认PA1 为高电平
+
