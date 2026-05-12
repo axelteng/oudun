@@ -20,8 +20,8 @@
     输出频率：50Hz-20ms，当检测到PA1 为高电平时候 PB1输出脉宽是 500 ，当检测到PA1 为地电平时候 PB1输出脉宽是 1500 ，开机默认PA1 为高电平
 
 + 2-RemoteSensing485out
-  Obtain 2 sets of ADC data from the remote sensing, use the serial port print assistant to observe the ADC data. Send 485 arrays in 4 directions respectively, and send 485 arrays during the return process.
+  Obtain 2 sets of ADC data from the remote sensing, use the serial port print assistant to observe the ADC data. Send 485 arrays in 4 directions respectively, and send 485 arrays during the return process.(Another remote sensing reservation)
   After the button is pressed, a 485 array is sent every 1000 milliseconds. Press it again to stop the transmission.
-  从遥感设备获取两组 ADC 数据，使用串口打印助手来查看 ADC 数据。分别在四个方向发送 485 数组，并在返回过程中也发送 485 数组。
+  从遥感设备获取两组 ADC 数据，使用串口打印助手来查看 ADC 数据。分别在四个方向发送 485 数组，并在返回过程中也发送 485 数组。(另一个遥感预留)
   按下按钮后，每 1000 毫秒发送一个 485 数组。再次按下按钮可停止传输。
   
