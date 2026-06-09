@@ -25,3 +25,15 @@
   从遥感设备获取两组 ADC 数据，使用串口打印助手来查看 ADC 数据。分别在四个方向发送 485 数组，并在返回过程中也发送 485 数组。(另一个遥感预留)
   按下按钮后，每 1000 毫秒发送一个 485 数组。再次按下按钮可停止传输。
   
++ 3-RemoteSensing485out
+  Acquire telemetry data and transmit it via RS-485 (using USART1 on PA8, PA9, and PA10) at a 10 ms interval. The OLED display should show the telemetry data in both decimal and hexadecimal formats.
+Hardware Pinout & Control:
+ * Telemetry Input: ADC1 (PA0, PA1)
+ * OLED Mirror: PA7
+ * OLED Refresh Rate Control: PB12
+检测遥感数据，并用485每次10ms发送一次数据，在OLED显示遥感十进制数据和16进制数据
+PA7 是反转OLED显示的 ;
+PB12是控制OLED刷新速度的 ;
+485发送用的USART1  PA8、PA9、PA10 ;
+遥感接收用的ADC1   PA0 、PA1 
+
