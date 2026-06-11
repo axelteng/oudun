@@ -31,9 +31,13 @@ Hardware Pinout & Control:
  * Telemetry Input: ADC1 (PA0, PA1)
  * OLED Mirror: PA7
  * OLED Refresh Rate Control: PB12
-检测遥感数据，并用485每次10ms发送一次数据，在OLED显示遥感十进制数据和16进制数据
-PA7 是反转OLED显示的 ;
-PB12是控制OLED刷新速度的 ;
-485发送用的USART1  PA8、PA9、PA10 ;
-遥感接收用的ADC1   PA0 、PA1 
+  检测遥感数据，并用485每次10ms发送一次数据，在OLED显示遥感十进制数据和16进制数据
+  PA7 是反转OLED显示的 ;
+  PB12是控制OLED刷新速度的 ;
+  485发送用的USART1  PA8、PA9、PA10 ;
+  遥感接收用的ADC1   PA0 、PA1 
 
++ 3-FreeRTOS_Mutex
+  "Implement the 3-RemoteSensing485out project utilizing the FreeRTOS Mutex mechanism for resource protection."
+  (实现 3-RemoteSensing485out 工程，利用 FreeRTOS 互斥锁机制进行资源保护。)
+  
