@@ -41,3 +41,8 @@ Hardware Pinout & Control:
   "Implement the 3-RemoteSensing485out project utilizing the FreeRTOS Mutex mechanism for resource protection."
   (实现 3-RemoteSensing485out 工程，利用 FreeRTOS 互斥锁机制进行资源保护。)
   
++ CAN+485+ADC.eprj2
+  Reference design featuring CAN, RS-485, and ADC interfaces.
+
+
+  
