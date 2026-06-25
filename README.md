@@ -44,5 +44,6 @@ Hardware Pinout & Control:
 + CAN+485+ADC.eprj2
   Reference design featuring CAN, RS-485, and ADC interfaces.
 
-
-  
++ BatteryDisplay.zip -- STM32f103c8t6
+  Transmit data via the RS-485 interface and capture the response. The received payload shall be displayed on a serial terminal. If no valid response is received within a 5-second timeout period, a communication error shall be reported.
+  485发送数据，并接收数据，将接收数据用串口助手打印出来，5秒内接收不到就报错
